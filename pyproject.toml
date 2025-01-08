@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pre_commit_placeholder_package"
+
+version = "0.0.0"
+
+requires-python = ">=3.8"
+dependencies = [
+    "lizard==1.17.13"
+]

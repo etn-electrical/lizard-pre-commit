@@ -1,0 +1,13 @@
+-   id: lizard
+    name: lizard
+    description: ''
+    entry: lizard
+    # Default arguments for lizard. Can be set via .pre-commit-config.yaml too.
+    # For more information, see Lizard documentation.
+    args: ["--CCN=15", "-T nloc=100", "-w", "-m"]
+    language: python
+    # Lizard support many languages, but we are only interested in the following currently.
+    types_or: [c++, c] 
+    require_serial: true
+    additional_dependencies: []
+    minimum_pre_commit_version: '2.9.2'
